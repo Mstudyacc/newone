@@ -1,5 +1,38 @@
 @import "bootstrap/dist/css/bootstrap";
 
 .navbar {
-  background-color: #FDF6EA !important;
+  background-color: black !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#home-container {
+  margin-top: 25px;
+}
+
+#jumbo {
+  background-image: asset-url("homejumbotwo.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+#footer {
+  background: #000 !important;
+}
+
+body {
+  background-color: lightgrey;
 }

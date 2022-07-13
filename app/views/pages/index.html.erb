@@ -1,6 +1,28 @@
-<h3>Choose your direction:</h3>
+<div id="page-content">
 
-<!-- link_to article_listing  | link_to about -->
+
+</div>
+
+<div class="container" id="home-container">
+  <div class="jumbotron text-center text-white" id="jumbo">
+    <h1 class="display-4">Welcome to the Newone</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
+      featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <a class="btn btn-success btn-lg" href="#" role="button">Sign up</a>
+  </div>
+</div>
+
 <%= link_to 'All articles', articles_path(@article) %> | <%= link_to 'About', about_path %>
 
-&copy; @max <%= Time.now.year %>
+<!-- Footer -->
+<footer class="page-footer font-small bg-dark fixed-bottom" id="footer">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 text-white">© <%= Time.now.year %> Copyright: @max
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
