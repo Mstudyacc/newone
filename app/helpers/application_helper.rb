@@ -1,7 +1,7 @@
 module ApplicationHelper
   def gravatar_for(user, options = {size: 80})
     # get the email from URL-parameters or what have you and make lowercase
-    email_address = @user.email.downcase
+    email_address = user.email.downcase
     # create the md5 hash
     hash = Digest::MD5.hexdigest(email_address)
     #get the avatar size
