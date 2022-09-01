@@ -9,4 +9,5 @@ Rails.application.routes.draw do
 
 #This is provide us with the all REST-full routes 
   resources 'articles'
+  resources 'categories', except: [:destroy]
 end
