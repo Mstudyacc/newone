@@ -19,7 +19,6 @@ class ArticlesController < ApplicationController
   end
 
   def create
-    byebug
     @article = Article.new(articles_permissions)
     @article.user = current_user
     if @article.save
