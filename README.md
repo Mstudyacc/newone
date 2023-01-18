@@ -1,24 +1,34 @@
-# README
+# Simple Blog in Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Built up within the Ruby on Rails Developer Course
+course  
 
-Things you may want to cover:
+# About
+This is the basic rails blog app in which all CRUD operations are implemented. Create and edit posts, update your account information and your personal information, add catogories to the posts, and other features. 
 
-* Ruby version
+# Built
+- Ruby on rails
+- VSCode
+- Ruby
+- Bootstrap
 
-* System dependencies
+# Prerequisites
+- ruby '2.7.2'
+- rails '6.1.6'
+- sqlite3 '1.4'
 
-* Configuration
+# Getting Started
+To get a local copy up and running follow these simple example steps.
 
-* Database creation
+- Clone this repository into your local machine
+- Run 'bundle install' and 'rails db:migrate'
+- Run the server with 'rails server'
+- Open your browser and type 'localhost:3000'
 
-* Database initialization
+# Author
 
-* How to run the test suite
+👤 Maxim Zakharov
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Github: [@Mstudyacc](https://github.com/Mstudyacc)
+- Email: maximzakharov5@gmail.com
+- Telegram: [@Max_Zakharov5](https://tlgg.ru/@Max_Zakharov5)
