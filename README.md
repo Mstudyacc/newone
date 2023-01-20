@@ -3,6 +3,8 @@
 Built up within the Ruby on Rails Developer Course
 course  
 
+![screenshot](/app/assets/images/preview.png)
+
 # About
 This is the basic rails blog app in which all CRUD operations are implemented. Create and edit posts, update your account information and your personal information, add catogories to the posts, and other features. 
 
